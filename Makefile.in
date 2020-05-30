@@ -150,7 +150,6 @@ install-rhasspy:
 	install -D "--target-directory=$(DESTDIR)$(prefix)/share/rhasspy" VERSION README.md LICENSE
 	cp -fR "${srcdir}/rhasspy-server-hermes/web" "$(DESTDIR)$(prefix)/share/rhasspy/"
 	cp -fR "${srcdir}/rhasspy-server-hermes/templates" "$(DESTDIR)$(prefix)/share/rhasspy/"
-	cp -fR "${srcdir}/rhasspy-server-hermes/web/docs" "$(DESTDIR)$(prefix)/share/rhasspy/"
 
 # -----------------------------------------------------------------------------
 
